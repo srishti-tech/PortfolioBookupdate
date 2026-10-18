@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="book.png"  />
+    <title>Portfolio Book</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    
+    <script type="text/javascript">
+     (function(){
+      emailjs.init({
+        publicKey: "YOjH-W4QHmg2fW--C",
+      });
+     })();
+    </script>
+    
+    <style>
+    
+      .profile-card {
+          text-align: center;
+          margin-top: 75px;
+          box-shadow: 0px 0px 2px 0px   rgba(0, 0, 0, 0.2);
+          align-items: center;
+          padding: 18px;
+      }
+      .profile-card2 {
+          margin-top: 10px;
+          text-align: center;
+          padding: 30px;
+      }
+      .profile-card .pic {
+          width: 25%;
+          height: 150px;
+          border-radius: 50%;
+          box-shadow: 2px   rgba(0, 0, 0, 0.2);
+          filter:  drop-shadow(5px 9px 6px rgba(0,0,0,0.5));      
+    
+          margin: -80px auto 10px;
+      }
+     
+
+      .profile-card h2 {
+          font-size: 30px;
+          margin: 10px 0 5px;
+          color: #333;
+      }
+      .profile-card h3 {
+          font-size: 14px;
+          margin: 5px 0;
+          color: #666;
+      }
+      .profile-card2 p {        
+        margin: 5px 0;
+          font-size: 14px;
+          color: #121111;
+      }
+    </style>
+
+  </head>
+
+<body>
+
+<div class="wrapper">
+<div class="cover cover-left" id="turn-left"></div>
+<div class="cover cover-right turn" id="turn-right"></div>
+
+<div class="book">
+      <!-- profile page -->
+    
+    <div class="book-page page-left" >
+
+        <div class="profile-page" id="0">
+
+          <!-- Navbar -->
+          <div class="navbar"> 
+            <a href="#" class="nomove"><i class="fa fa-fw fa-envelope"></i>srishti.shrivastava123@gmail.com</a> 
+            <a href="Srishti Shrivastava Resume (1).pdf" download class="move"><i class="fa fa-fw fa-user" ></i> Resume</a>
+            <!--<a href="#" class="move"><i class="fa fa-fw fa-"></i> Skills</a>
+            <a href="#" class="move"><i class="fa fa-fw fa-search"></i> Project</a> -->
+          </div> 
+        
+          <div class="profile-card">
+    
+            <img src="img/profile.png" alt="Profile Picture" class="pic" >
+            <h2>SRISHTI SHRIVASTAVA</h2>
+            <h3>Java | HTML/CSS/JS | Android Studio | ReactJS | UI/UX</h3>
+            <h3>Bhopal, Madhya Pradesh, India</h3>
+      
+            <div class="social-media">
+            <a href="https://github.com/srishti-tech"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/srishti26dec9/"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/art_up06/"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+
+          </div>
+          <div class="profile-card2"> 
+            <p>"Passionate and detail-oriented Software Developer with experience in frontend technologies, including Java,Html, Boostrap, React. Skilled in building user-friendly web and mobile applications, with a strong foundation in UI/UX design using Figma. Eager to contribute innovative solutions and grow in the IT industry."</p>
+            <br>
+            <div class="btn-box">
+             <a href="SRISHTI SHRIVASTAVA_RESUME (1).pdf" download class="btn">Download CV</a>
+             <a href="Srishti_coverLetter.pdf" download class="btn">Download Cover letter</a>
+            </div> 
+           </div>
+           <span class="number-page">0</span>
+        <!-- prev button -->
+        <span class="nextprev-btn back" data-page="0">
+         <i class="bx bx-chevron-left"></i>
+        </span>   
+        </div> 
+       
+
+    </div>
+     <!-- page 1 & 2 -->
+     <div class="book-page page-right turn" id="turn-1">
+        <!-- page 1 (education) -->
+        <div class="page-front">
+
+          <h1 class="title">EDUCATION</h1>
+          <div class="workeduc-box">
+
+              <div class="workeduc-content">
+                        <div class="btn-box">
+                        <span class="year"> <i class="bx-bxs-calendar"></i>2018-2022</span>                       
+                        <h3 class="size">Lakshmi narain college of technology and science</h3>    
+                         </div>                                                
+                        <p class="sizep">(Bachelor of Technology-Computer Science)</p>
+              </div>
+       
+              <div class="workeduc-content">
+                          <span class="year"> <i class="bx-bxs-calendar"></i>2018</span>
+                          <h3 class="size">Mount Carmel School,Bhopal</h3>                         
+                          <p class="sizep">(ISC Board Higher Secondary)</p>
+              </div>
+       
+               <div class="workeduc-content">
+                        <span class="year"><i class="bx-bxs-calendar"></i>2016</span>
+                         <h3 class="size">Mount Carmel School,Bhopal</h3>                         
+                         <p class="sizep">(ICSE Board Secondary School)</p>
+               </div>
+          </div>
+      <br>
+          <h1 class="title">CERTIFICATES</h1>
+          <div class="workeduc-box">
+
+         
+     
+            <div class="workeduc-content">
+                        <h3 class="size">Digital Nurture 2021-Workplace Skills to Leap Ahead by Cognizant</h3>
+                        <span class="year"> <i class="bx-bxs-calendar"></i> By Cognizant</span>
+            </div>
+     
+             <div class="workeduc-content">
+                       <h3 class="size">IOT & Cloud Computing with Python, RaspberryPi & IBM Cloud</h3>    
+                       <span class="year"> <i class="bx-bxs-calendar"></i> By EI Systems Services</span> 
+             </div>
+        </div>
+  
+          
+             <span class="number-page">1</span>
+             <!-- prev button -->
+             <span class="nextprev-btn" data-page="turn-1">
+             <i class="bx bx-chevron-right"></i>
+             </span>
+
+        </div>
+  
+        <!-- page 2 (My skills) -->
+        <div class="page-back">
+          <h1 class="title"> SKILLS</h1>
+          <div class="skills-box">
+    
+            <div class="skills-content">
+              <h3>Front-end</h3>
+              <div class="content">
+                  <span><img src="img/html.png" alt="html"></span>
+                  <span><img src="img/css.png" alt="css"></span>
+                  <span><img src="img/bootstrap.png" alt="bootstrap" style="height: 100px;"></span>
+                  <span><img src="img/react.png" alt="react"></span>
+              </div>
+            </div>
+            <div class="skills-content">
+              <h3>Programming languages</h3>
+              <div class="content">
+                <span> <img src="img/java.png" alt="java"></span>
+                <span> <img src="img/py.png" alt="py" style="width:70px; height: 95px;" ></span>
+                <span> <img src="img/android.png" alt="android" style="width:70px; height: 90px;"></span>
+               </div>
+            </div>
+           <div class="skills-content">
+              <h3>UI/UX</h3>
+              <div class="content">
+                 <span> <img src="img/figma.png" alt="figma"></span>
+                 <span> <img src="img/adobe-xd.png" alt="adobe-xd"></span>
+                 <span> <img src="img/canva.png" alt="canva"></span>
+              </div>
+           </div>
+           <div class="skills-content">
+            <h3>OTHERS</h3>
+            <div class="content">
+               <span> <img src="img/sql.png" alt="sql" style="width:75px; height: 90px;"></span>
+               <span> <img src="img/ms.png" alt="ms" style="width:75px; height: 90px;"></span>
+            </div>
+         </div>
+           </div>
+           <br/>
+
+           <h1 class="title">MY INTERESTS</h1>
+           <div class="skills-box">
+            <div class="skills-content">
+              
+              <div class="content1" >
+                  <span><img src="img/chess.png" alt="html" style="width: 85px; height: 90px;"></span>
+                  <span><img src="img/sketch.png" alt="css" style="width: 85px; height: 85px;"></span>
+                  <span><img src="img/abacus.png" alt="bootstrap" style="width: 80px; height: 90px;"></span>
+                  <span><img src="img/piano.png" alt="react" style="width: 80px; height: 90px;"></span>
+              </div>
+            </div>
+            </div>
+
+        
+          
+              <span class="number-page">2</span>
+              <!-- prev button -->
+              <span class="nextprev-btn back" data-page="turn-1">
+               <i class="bx bx-chevron-left"></i>
+              </span>
+
+        </div>
+  
+     </div>
+     <!-- page 3 & 4 projects-->
+     <div class="book-page page-right turn" id="turn-2">
+
+      <!-- page 3 (My projects) -->
+     <div class="page-front">
+        <h1 class="title">MY PROJECTS</h1>
+        <div class="portfolio-box">
+           <div class="img-box">
+            <img src="project/1-removebg-preview.png" alt="" class="img2">
+          
+           </div>
+           <div class="info-box">
+             <div class="info-title liveoutput">
+              <h4>COLLEGE MANAGEMENT APP : </h4>
+              
+             </div>
+              <p>This application is designed to streamline and manage the operations of an educational institution.
+             </p>
+             <table style="width:100%">
+              <tr>
+                <th> <b>FEATURES:</b></th>
+              </tr>
+              <tr> <td>The system supports multiple roles like Students, Admins, and Teachers, each having specific access and functionalities.</td>
+              </tr>
+            
+             </table>
+             <br>
+             
+             <table style="width:100%">
+              <tr>
+                <th> <b>TECHNOLOGIES:</b></th></tr>
+                <tr> <td><u class="under">Frontend:</u>
+                  Developed in Android Studio using Java, ensuring smooth navigation.</td></tr>
+                <tr> <td><u class="under">Backend:</u>SQL was used for database like storing and retrieving data
+                   of users attendance, assignments etc.
+                </td></tr>
+                <tr> <td><u class="under">Design:</u> Figma was used for creating 
+                  wireframes and designing UI. </td></tr>
+     </table>
+           </div>
+  
+        </div>
+            <span class="number-page">3</span>
+            <!-- prev button -->
+                <span class="nextprev-btn" data-page="turn-2">
+             <i class="bx bx-chevron-right"></i>
+                </span>
+      </div>
+       
+      <!-- page 4 (my projects) -->
+     <div class="page-back">
+          <h1 class="title">MY PROJECT</h1>
+          <div class="portfolio-box">
+            <div class="img-box">
+             <img src="project/2-removebg-preview.png" alt="" class="img2">
+             
+            </div>
+            <div class="info-box">
+              <div class="info-title">
+               <h4>WEATHER DASHBOARD WEBSITE:</h4>
+               
+               <a href="https://raw.githack.com/srishti-tech/CodeAlpha_weatherDashboard/ff84c710abdb8fc8ab91c3c4bb2bb98d4c9e49e8/index.html" class="btn">  LIVE  PROJECT</a>  
+              </div>
+               <p>This web application allows you to know the weather of the city. 
+               You can input the city name know its weather description of present date through OpenWeatherAPI.</p>
+              <table style="width:100%">
+               <tr>
+                 <th> <b>FEATURES:</b></th>
+               </tr>
+               <tr> <td> <u class="under"> Task Management:</u> Input the city name effortlessly.</td>
+               </tr>
+               <tr><td> <u class="under">Get details:</u> We can get the weather report of the city we have entered.
+               </td></tr>
+               <tr><td><u class="under">Responsive interface:</u> It is responsive to the size of the window.
+               </td></tr>
+              </table>
+               <br/>
+              <table style="width:100%">
+               <tr>
+                 <th> <b> TECHNOLOGIES USED:</b></th>
+               </tr>
+               <tr> <td><u class="under">HTML:</u>  Used for creating the structure of the project.</td> </tr>
+               <tr><td> <u class="under"> CSS & Bootstrap:</u> Styled the weather dashboard for an appealing user interface.
+               </td></tr>
+               <tr><td><u class="under">JavaScript:</u>  Implemented task management logic and interactivity features.
+               </td></tr>
+              </table>
+               
+            </div>
+   
+         </div>
+
+           <span class="number-page">4</span>
+           <!-- prev button -->
+           <span class="nextprev-btn back" data-page="turn-2">
+           <i class="bx bx-chevron-left"></i>
+           </span>
+       </div>
+
+     </div>
+     <!-- page 5 & 6 -->
+     <div class="book-page page-right turn" id="turn-3">
+
+    <!-- page 5 (My projects) -->
+   <div class="page-front">
+      <h1 class="title">MY PROJECTS</h1>
+      <div class="portfolio-box">
+         <div class="img-box">
+        <!--  <img src="project/CMH.jpg" alt="" class="img2">
+          <img src="project/CM.jpg" alt="" class="img2">
+          <img src="project/CMmain.jpg" alt="" class="img2">
+          <img src="project/CMMenu.jpg" alt="" class="img2">
+        -->
+          <img src="project/3-removebg-preview.png" class="img2">
+
+         </div>
+         <div class="info-box">
+           <div class="info-title liveoutput">
+            <h4>TO-DO LIST WEBSITE: </h4>
+            <a href="https://raw.githack.com/srishti-tech/CodeAlpha_weatherDashboard/ff84c710abdb8fc8ab91c3c4bb2bb98d4c9e49e8/index.html" class="btn">  LIVE  PROJECT</a>  
+           
+           </div>
+            <p>A to-do list which task can be add, delete, edit, filter, and theme options.</p>
+           <table style="width:100%">
+            <tr>
+              <th> <b>FEATURES:</b></th>
+            </tr>
+            <tr> <td><u class="under">  Task Management: </u> Filtering tasks based on status(e.g. completed, pending). </td> </tr>              
+             <tr> <td><u class="under">  Theme Customization: </u> Toggle between light and dark themes.</td> </tr>
+          <tr>  <td><u class="under">Responsive Design: </u> Works smoothly across different screen sizes. </td>
+             
+            </tr>
+          
+           </table>
+           <br>
+           
+           <table style="width:100%">
+            <tr>
+              <th> <b>TECHNOLOGIES:</b></th></tr>
+              <tr> <td><u class="under">Design:</u> Figma was used for creating 
+                wireframes and designing UI. </td></tr>
+              <tr> <td><u class="under">Frontend:</u>
+                Developed in Html, CSS and JavaScript.</td></tr>
+              <tr> <td><u class="under">Local Storage:</u>Stores tasks for future use without needing a database.
+                 of users attendance, assignments etc.
+              </td></tr>
+           </table>
+         </div>
+
+      </div>
+          <span class="number-page">5</span>
+          <!-- prev button -->
+              <span class="nextprev-btn" data-page="turn-3">
+           <i class="bx bx-chevron-right"></i>
+              </span>
+    </div>
+     
+    <!-- page 6 (my projects) -->
+   <div class="page-back">
+        <h1 class="title">MY PROJECT</h1>
+        <div class="portfolio-box">
+          <div class="img-box">
+           <img src="project/4-removebg-preview.png" alt="" class="img2">
+    
+          </div>
+          <div class="info-box">
+            <div class="info-title">
+             <h4>E-WASTE RECYCLING SYSTEM:</h4>
+             <a href="https://raw.githack.com/srishti-tech/CodeAlpha_weatherDashboard/ff84c710abdb8fc8ab91c3c4bb2bb98d4c9e49e8/index.html" class="btn">  LIVE  PROJECT</a>  
+            </div>
+             <p>An e-waste recycling system with pickup, certification, and location services.</p>
+            <table style="width:100%">
+             <tr>
+               <th> <b>FEATURES:</b></th>
+             </tr>
+             <tr> <td> <u class="under">Recycling Centers & Pickup Locations:</u>
+              Locate nearby recycling centers to dispose of e-waste and schedule waste pickups.
+            </td></tr>
+             <tr><td> <u class="under">Certification Card: </u> Generate a certificate for responsible e-waste disposal.
+             </td></tr>
+             <tr><td><u class="under">Responsive design:</u> It is responsive to the size of the window.
+             </td></tr>
+            </table>
+             <br/>
+            <table style="width:100%">
+             <tr>
+               <th> <b> TECHNOLOGIES USED:</b></th>
+             </tr>
+             <tr> <td><u class="under">HTML:</u>  Used for creating the structure of the project.</td> </tr>
+             <tr><td> <u class="under"> CSS & Bootstrap:</u> Styled the weather dashboard for an appealing user interface.
+             </td></tr>
+             <tr><td><u class="under">JavaScript:</u>  Implemented task management logic and interactivity features.
+             </td></tr>
+            </table>
+             
+          </div>
+ 
+       </div>
+
+         <span class="number-page">6</span>
+         <!-- prev button -->
+         <span class="nextprev-btn back" data-page="turn-3">
+         <i class="bx bx-chevron-left"></i>
+         </span>
+     </div>
+
+     </div>
+     <!-- page 7 & 8 -->
+     <div class="book-page page-right turn" id="turn-4">
+
+    <!-- page 5 (My projects) -->
+   <div class="page-front">
+      <h1 class="title">MY PROJECTS</h1>
+      <div class="portfolio-box">
+         <div class="img-box">
+        <!--  <img src="project/CMH.jpg" alt="" class="img2">
+          <img src="project/CM.jpg" alt="" class="img2">
+          <img src="project/CMmain.jpg" alt="" class="img2">
+          <img src="project/CMMenu.jpg" alt="" class="img2">
+        -->
+          <img src="project/7-removebg-preview.png" class="img2">
+
+         </div>
+         <div class="info-box">
+           <div class="info-title liveoutput">
+            <h4>SKETCHING PAGE WEBSITE: </h4>
+            <a href="https://raw.githack.com/srishti-tech/CodeAlpha_weatherDashboard/ff84c710abdb8fc8ab91c3c4bb2bb98d4c9e49e8/index.html" class="btn">  LIVE  PROJECT</a>  
+           
+           </div>
+            <p>This application is designed to streamline and manage the operations of an educational institution.
+           </p>
+           <table style="width:100%">
+            <tr>
+              <th> <b>FEATURES:</b></th>
+            </tr>
+            <tr> <td>The system supports multiple roles like Students, Admins, and Teachers, each having specific access and functionalities.</td>
+            </tr>
+          
+           </table>
+           <br>
+           
+           <table style="width:100%">
+            <tr>
+              <th> <b>TECHNOLOGIES:</b></th></tr>
+              <tr> <td><u class="under">Frontend:</u>
+                Developed in Android Studio using Java, ensuring smooth navigation.</td></tr>
+              <tr> <td><u class="under">Backend:</u>SQL was used for database like storing and retrieving data
+                 of users attendance, assignments etc.
+              </td></tr>
+              <tr> <td><u class="under">Design:</u> Figma was used for creating 
+                wireframes and designing UI. </td></tr>
+</table>
+         </div>
+
+      </div>
+          <span class="number-page">5</span>
+          <!-- prev button -->
+              <span class="nextprev-btn" data-page="turn-4">
+           <i class="bx bx-chevron-right"></i>
+              </span>
+    </div>
+     
+    <!-- page 6 (my projects) -->
+   <div class="page-back">
+        <h1 class="title">MY PROJECT</h1>
+        <div class="portfolio-box">
+          <div class="img-box">
+           <img src="project/6-removebg-preview.png" alt="" class="img2">
+    
+          </div>
+          <div class="info-box">
+            <div class="info-title">
+             <h4>QR CODE GENERATOR APP:</h4>
+            </div>
+             <p>A Python-based QR code generator that creates scannable codes for links, 
+              images, and text using various APIs.</p>
+            <table style="width:100%">
+             <tr>
+               <th> <b>FEATURES:</b></th>
+             </tr>
+             <tr> <td> <u class="under"> Task Management:</u> Input the city name effortlessly.</td>
+             </tr>
+             <tr><td> <u class="under"></u> We can get the weather report of the city we have entered.
+             </td></tr>
+             <tr><td><u class="under">Offline Functionality: </u> It is responsive to the size of the window.
+             </td></tr>
+            </table>
+             <br/>
+            <table style="width:100%">
+             <tr>
+               <th> <b> TECHNOLOGIES USED:</b></th>
+             </tr>
+             <tr> <td><u class="under">HTML:</u>  Used for creating the structure of the project.</td> </tr>
+             <tr><td> <u class="under"> CSS & Bootstrap:</u> Styled the weather dashboard for an appealing user interface.
+             </td></tr>
+             <tr><td><u class="under">JavaScript:</u>  Implemented task management logic and interactivity features.
+             </td></tr>
+            </table>
+             
+          </div>
+ 
+       </div>
+
+         <span class="number-page">6</span>
+         <!-- prev button -->
+         <span class="nextprev-btn back" data-page="turn-4">
+         <i class="bx bx-chevron-left"></i>
+         </span>
+     </div>
+
+     </div>
+     <!-- page 9 & 10 -->
+     <div class="book-page page-right turn" id="turn-5">
+
+      <!-- page 7 (My projects) -->
+     <div class="page-front">
+        <h1 class="title">MY PROJECT</h1>
+        <div class="portfolio-box">
+          <div class="img-box">
+          <img src="project/8-removebg-preview.png" alt="" class="img2"> 
+          </div>
+          <div class="info-box">
+            <div class="info-title">
+             <h4>POKEMON GENERATOR WEBSITE:</h4>
+             
+             <a href="https://raw.githack.com/srishti-tech/To-doList/812ee567d69eb5fcc1241e6728e17c143541a412/index.html" class="btn">  LIVE  PROJECT</a>  
+            </div>
+             <p>This web application allows you to organize the list. This one is the update project.
+             </p>
+            <table style="width:100%">
+             <tr>
+               <th> <b>FEATURES:</b></th>
+             </tr>
+             <tr> <td> Add tasks with a title,due date and an optional description.
+             </td>
+             </tr>
+             <tr><td> Edit or Mark tasks as completed.Filter tasks (All, Completed, Pending).
+             </td></tr>
+             <tr><td> 
+              Dark mode toggle for UI customization.
+            </td></tr>
+             <tr><td>Delete tasks when no longer needed. </td></tr>
+            </table>
+             <br/>
+            <table style="width:100%">
+             <tr>
+               <th> <b> TECHNOLOGIES USED:</b></th>
+             </tr>
+             <tr> <td><u class="under">HTML:</u>  Structured layout with input fields, task list, and filter section.</td> </tr>
+             <tr><td> <u class="under"> CSS</u> Responsive design with styles for task states and dark mode.
+             </td></tr>
+             <tr><td><u class="under">JavaScript:</u>  Handles task operations, Local Storage integration, and optional features.
+             </td></tr>
+            </table>
+             
+          </div>
+ 
+       </div>
+          <span class="number-page">7</span>
+            <!-- prev button -->
+                <span class="nextprev-btn" data-page="turn-5">
+             <i class="bx bx-chevron-right"></i>
+                </span>
+      </div>
+       
+      <!-- page 8 (contact) -->
+     <div class="page-back">
+          <h1 class="title">Get in Touch</h1>
+         
+          <div class="container">
+            <div class="row">
+              <div class="column1">
+
+               
+                  <div id="social-platforms">
+      
+                    <a class="btn1 btn-icon btn-github" href="https://github.com/srishti-tech"><i class="fa fa-github"></i><span>Github</span></a>
+                 <!--  <a class="btn1 btn-icon btn-twitter" href="https://github.com/srishti-tech"><i class="fa fa-twitter"></i><span> Twitter </span></a>  -->
+                    <a class="btn1 btn-icon btn-googleplus" href="https://www.instagram.com/art_up06/"><i class="fa fa-instagram"></i><span>Instagram</span></a>
+                    <a class="btn1 btn-icon btn-pinterest" href="https://in.pinterest.com/srishtishrivastava123/"><i class="fa fa-pinterest"></i><span>Pinterest</span></a>
+                    <a class="btn1 btn-icon btn-linkedin" href="https://www.linkedin.com/in/srishti26dec9/"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
+                    </div>
+                    
+              </div>
+              <div class="column">
+                <form>
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="fname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lname" placeholder="Your last name..">
+                  <label for="country">Country</label>
+                  <input type="text" id="country" name="country" placeholder="Country name..">
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:190px"></textarea>
+                  <input type="submit" value="Submit" class="btn1" onclick="sendMail()">
+                </form>
+              </div>
+            </div>
+          </div>
+
+           <span class="number-page">8</span>
+           <!-- prev button -->
+           <span class="nextprev-btn back" data-page="turn-5">
+           <i class="bx bx-chevron-left"></i>
+           </span>
+
+           <a href="#" class="back-profile">
+            <p>Profile</p>
+            <i class="bx bxs-user"></i>
+           </a>
+       </div>
+
+     </div>
+
+   
+</div>
+</div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
